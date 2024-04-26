@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('./assets/sunset.jpg');
+    background-size:cover; 
+}
+header{
+    width: fit-content;
+    height: fit-content;
+}
+header >*{
+    width: fit-content;
+    display:inline-flex; 
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.link li{
+    display: inline-flex;
+    margin: 35px;
+    color: white;
+    font-weight: bold;
+}
+
+.link li:hover{
+    color:#ff6f04;
+}
+
+.Title{
+    color:#e47926; 
+    font-size: 2rem;
+}
+
+#searchBar{
+    color: white;
+    border: 1.5px solid #e47926;
+    border-radius: 5px;
+    background: none;
+}
+
+#research button{
+    background-color:#ff6f04; 
+    color: white;
+    width: 100px;
+    height: 35px;
+    border-color:#ff6f04;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.article{
+    color: white; 
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+#Course{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.Development{
+    color: #ff6f04;
+}
+
+#joinUs{
+    height: 40px;
+    width: 125px;
+    border: 1px solid #ff6f04;
+    border-radius: 15px;
+    background-color: #ff6f04;
+    margin-top:10px; 
+    margin-left: 45px;
+    font-size: 15px;
+}
+
+form{
+    position: relative;
+    width: 350px;
+    left: 70%;
+    bottom: 280px;
+    background-color: black;
+    border-radius: 5px;
+    opacity: 0.75;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form >*{
+    padding: 10px;
+}
+
+#loginHere{
+    color: #e47926;
+    width: 250px;
+    height: 45px;
+    border: 1px solid white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#Login{
+    width: 200px;
+    font-weight:bold;
+    border: 1px solid #ff7101;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color:#ff7101;
+}
+
+form p{
+    color:white
+}
+
+#SignUp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SignLink{
+    color:#ff6f04;
+}
+
+form input{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    text-decoration: underline;    
+}
+
+footer{
+    color: white;
+    border-top: 1px solid white;
+}
